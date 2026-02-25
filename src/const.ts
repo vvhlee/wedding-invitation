@@ -14,14 +14,14 @@ export const WEDDING_DATE_FORMAT = `YYYY년 MMMM D일 dddd A h시${WEDDING_DATE.
 
 // 예식 당월 휴무일. 켈린더에 표시하기 위함.
 // 예: 예식일 8월 -> 8월 15일 광복절
-export const HOLIDAYS = []
+export const HOLIDAYS = [5, 25]
 
 export const LOCATION = "여의도웨딩컨벤션 3F"
 export const LOCATION_ADDRESS = "서울특별시 영등포구 여의대로 14 KT빌딩"
 
 // 카카오톡 공유 시 위치 정보로 사용할 주소.
 // LOCATION 과 동일하게 설정해도 무방하나, 필요에 따라 좀 더 상세히 작성 가능.
-export const SHARE_ADDRESS = LOCATION
+export const SHARE_ADDRESS = LOCATION_ADDRESS
 export const SHARE_ADDRESS_TITLE = LOCATION
 
 // 네이버 지도 및 카카오 네비게이션에 사용할 좌표. [경도, 위도] 형식.
