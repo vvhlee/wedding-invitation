@@ -21,15 +21,15 @@ import image18 from "./img18.jpeg"
 export const COVER_IMAGE = coverImage
 
 export const GALLERY_IMAGES = [
-  image8,
   image9,
   image10,
+  image8,
   // image1,
   // image2,
-  image3,
   image4,
   image6,
   image5,
+  image3,
   image7,
   image17,
   image11,
